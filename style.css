@@ -40,17 +40,22 @@ body {
 }
 .panel1 {
   background-image: url("./images/baleine.png");
+  grid-template: 1 / 2;
 }
 .panel2 {
   background-image: url("./images/guepard.png");
+  grid-template: 2 /3;
 }
 
 .panel3 {
   background-image: url("./images/koala.png");
+  grid-template: 3 / 4;
 }
 .panel4 {
   background-image: url("./images/papillon.png");
+  grid-template: 4 / 5;
 }
 .panel5 {
   background-image: url("./images/piano.jpg");
+  grid-template: 5 / 6;
 }
