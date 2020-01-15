@@ -34,18 +34,18 @@ body {
   background-position: center;
 }
 .panel1 {
-  background: url("./images/baleine.png");
+  background-image: url("./images/baleine.png");
 }
 .panel2 {
-  background: url("./images/guepard.png");
+  background-image: url("./images/guepard.png");
 }
 
 .panel3 {
-  background: url("./images/koala.png");
+  background-image: url("./images/koala.png");
 }
 .panel4 {
-  background: url("./images/papillon.png");
+  background-image: url("./images/papillon.png");
 }
 .panel5 {
-  background: url("./images/piano.jpg");
+  background-image: url("./images/piano.jpg");
 }
