@@ -1,0 +1,51 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+  background: #ffc600;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.panels {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.panel {
+  background: #6b0f9c;
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  align-items: center;
+  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    grid 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+  font-size: 2rem;
+  background-size: cover;
+  background-position: center;
+}
+.panel1 {
+  background: url("./images/baleine.png");
+}
+.panel2 {
+  background: url("./images/guepard.png");
+}
+
+.panel3 {
+  background: url("./images/koala.png");
+}
+.panel4 {
+  background: url("./images/papillon.png");
+}
+.panel5 {
+  background: url("./images/piano.jpg");
+}
